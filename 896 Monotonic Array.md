@@ -38,7 +38,7 @@ Note:
 <ul>
 <li>1 <= A.length <= 50000</li>
 <li>-100000 <= A[i] <= 100000</li>
-<ul>
+</ul>
 
 ## Solution
 Python 
