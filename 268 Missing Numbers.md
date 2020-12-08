@@ -43,11 +43,12 @@ Constraints:
 ## Solution
 ```We can compute the sum of nums in linear time, and by Gauss' formula, we can compute the sum of the first nn natural numbers in constant time. 
 Therefore, the number that is missing is simply the result of Gauss' formula minus the sum of nums, 
-as nums consists of the first nn natural numbers minus some number.```
-
+as nums consists of the first nn natural numbers minus some number.
+```
+```
 class Solution:
     def missingNumber(self, nums):
         expected_sum = len(nums)*(len(nums)+1)//2
         actual_sum = sum(nums)
         return expected_sum - actual_sum
-
+```
