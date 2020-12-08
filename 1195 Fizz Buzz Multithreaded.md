@@ -19,12 +19,12 @@ class FizzBuzz {
 }
 ```
 Implement a multithreaded version of ```FizzBuzz``` with four threads. The same instance of ```FizzBuzz``` will be passed to four different threads:
-
-1.Thread A will call  ```fizz()``` to check for divisibility of 3 and outputs ```fizz```.
-2.Thread B will call ```buzz()``` to check for divisibility of 5 and outputs ```buzz```.
-3.Thread C will call ```fizzbuzz()``` to check for divisibility of 3 and 5 and outputs ```fizzbuzz```.
-4.Thread D will call ```number()``` which should only output the numbers.
-
+<ul>
+  <li>-Thread A will call  ```fizz()``` to check for divisibility of 3 and outputs ```fizz```.</li>
+  <li>Thread B will call ```buzz()``` to check for divisibility of 5 and outputs ```buzz```.</li>
+  <li>Thread C will call ```fizzbuzz()``` to check for divisibility of 3 and 5 and outputs ```fizzbuzz```.</li>
+  <li>Thread D will call ```number()``` which should only output the numbers.</li>
+</ul>
 ## Solution
 
 ```java
