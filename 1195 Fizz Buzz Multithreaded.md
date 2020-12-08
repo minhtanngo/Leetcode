@@ -20,10 +20,10 @@ class FizzBuzz {
 ```
 Implement a multithreaded version of ```FizzBuzz``` with four threads. The same instance of ```FizzBuzz``` will be passed to four different threads:
 
-Thread A will call  ```fizz()``` to check for divisibility of 3 and outputs ```fizz```.
-Thread B will call ```buzz()``` to check for divisibility of 5 and outputs ```buzz```.
-Thread C will call ```fizzbuzz()``` to check for divisibility of 3 and 5 and outputs ```fizzbuzz```.
-Thread D will call ```number()``` which should only output the numbers.
+1.Thread A will call  ```fizz()``` to check for divisibility of 3 and outputs ```fizz```.
+2.Thread B will call ```buzz()``` to check for divisibility of 5 and outputs ```buzz```.
+3.Thread C will call ```fizzbuzz()``` to check for divisibility of 3 and 5 and outputs ```fizzbuzz```.
+4.Thread D will call ```number()``` which should only output the numbers.
 
 ## Solution
 
