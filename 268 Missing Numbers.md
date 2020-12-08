@@ -1,4 +1,4 @@
-##Description
+## Description
 
 Given an array ```nums``` containing ```n``` distinct numbers in the range ```[0, n]```, return the only number in the range that is missing from the array.
 Follow up: Could you implement a solution using only ```O(1)``` extra space complexity and ```O(n)```runtime complexity?
@@ -40,7 +40,7 @@ Constraints:
 <li>All the numbers of nums are unique.</li>
 </ul>
 
-##Solution
+## Solution
 ```We can compute the sum of nums in linear time, and by Gauss' formula, we can compute the sum of the first nn natural numbers in constant time. 
 Therefore, the number that is missing is simply the result of Gauss' formula minus the sum of nums, 
 as nums consists of the first nn natural numbers minus some number.```
