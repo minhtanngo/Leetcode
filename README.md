@@ -1,1 +1,1 @@
-# Leetcode
+# Coding exercises
